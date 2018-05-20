@@ -3,10 +3,10 @@
 /* Client Side */
 
 /* Include the client Telepath class */
-require_once 'Telepath/Client.Telepath.php';
+require_once '../Telepath/Client.Telepath.php';
 
 /* Basic Setup */
-$class = new Telepath\Client('test');
+$class = new Telepath\Client('testClass');
 /* Additional Paramerters */
 $class->setServerProtocol("https");
 $class->setServerAddress("localhost");
