@@ -26,7 +26,7 @@ class Client
     /* The server protocol (string) */
     private $serverProtocol = "http";
     /* The server IP or Host name (string) */
-    private $serverAddress = "64.52.23.56";
+    private $serverAddress = "localhost";
     /* The server port 'optional' (mixed/string or integer) */
     private $serverPort = NULL;
     /* The service directory on the server (string) */
