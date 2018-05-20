@@ -243,26 +243,22 @@ class Client
 
     public function setServerAddress($address)
     {
-        if($this->serverAddress = $address) return true;
-        return false;
+        return ($this->serverAddress = $address);
     }
 
     public function setServerPort($port)
     {
-        if($this->serverPort = (string) $port) return true;
-        return false;
+        return ($this->serverPort = (string) $port);
     }
 
     public function setServerDir($location)
     {
-        if($this->serverDir = $location) return true;
-        return false;
+        return ($this->serverDir = $location);
     }
 
     public function setServerProtocol($protocol)
     {
-        if($this->serverProtocol = $protocol) return true;
-        return false;
+        return ($this->serverProtocol = $protocol);
     }
 
     public function getServerAddress()
