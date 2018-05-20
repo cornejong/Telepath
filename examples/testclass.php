@@ -1,6 +1,6 @@
 <?php
 
-class test
+class testClass
 {
     public $variable = "this value";
 
@@ -21,8 +21,8 @@ class test
     }
 }
 
-require_once './RPC_SERVER/Server.SC_RPC.php';
+require_once '../Telepath/Server.Telepath.php';
 
 $server = new Telepath\Server;
-$server->loadClass('test');
+$server->loadClass('testClass');
 $server->handle();
